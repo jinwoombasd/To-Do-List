@@ -1,3 +1,95 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
 .hidden {
     display: none;
+}
+
+#clock {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loginForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loginForm input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#todo-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#todo-list li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li button {
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#quote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#quote span {
+    display: block;
+    font-style: italic;
+}
+
+#weather {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#weather span {
+    display: block;
+    font-weight: bold;
+}
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
