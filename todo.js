@@ -28,7 +28,15 @@ function showToDo(newTodo) {
     li.appendChild(span);
     li.appendChild(button);
     toDoList.appendChild(li);
+
+    if (toDoList.childElementCount > 5) {
+        const quoteElement = document.getElementById("quote");
+        if (quoteElement) {
+            quoteElement.remove();
+        }
+    }
 }
+
 
 function handleToDoSubmit(event) {
     event.preventDefault();
