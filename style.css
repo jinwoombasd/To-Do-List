@@ -163,6 +163,7 @@ img {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    display: block; /* 추가: 이미지가 보이지 않는 문제를 해결하기 위해 display 속성을 block으로 설정 */
 }
 
 #greeting {
